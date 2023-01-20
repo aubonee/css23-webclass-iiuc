@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.header h1 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(146, 140, 140);
+}
+
+
+/* descendant selector (space)  */
+
+div h2 {
+    padding: 10px;
+    background-color: rgb(238, 238, 177);
+}
+
+
+/* child selector (>)  */
+
+div>h2 {
+    padding: 10px;
+    background-color: rgb(188, 226, 232);
+}
+
+
+/* general sibling selector(~) */
+
+div~h2 {
+    padding: 10px;
+    background-color: rgb(234, 212, 131);
+}
+
+
+/* adjacent sibling selector(+) */
+
+div+h2 {
+    padding: 10px;
+    background-color: rgb(226, 240, 193);
+}
